@@ -1,79 +1,74 @@
-body {
-  width: 100%;
-  height: 100%;
+body .main-visual {
+  width: 100vw;
+  height: 100vh;
   background-image: url(https://ohacorte.com/wp-content/themes/ohacorte/images/bg-grunge.jpg);
   background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: -60px;
 }
-body header {
+body .main-visual header {
   position: fixed;
-  top: 0;
-  left: 0;
   width: 100%;
-  z-index: 10;
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-body header .header-inner {
+body .main-visual header .header-inner {
   height: 100px;
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  padding: 0, 100px;
 }
-body header .header-inner .logo {
-  width: px;
-  height: 80px;
-  margin-left: 20px;
-  margin-right: auto;
+body .main-visual header .header-inner .logo img {
+  width: 150px;
+  margin-top: -10px;
+  margin-left: -10px;
 }
-body header .header-inner .menu {
+body .main-visual header .header-inner .menu {
   height: auto;
-  padding-top: 0px;
   width: 770px;
 }
-body header .header-inner .menu-list {
+body .main-visual header .header-inner .menu-list {
   display: flex;
   color: #fff;
 }
-body header .header-inner .menu-list li {
+body .main-visual header .header-inner .menu-list li {
   margin-left: 40px;
 }
-body header .header-inner .nav .shop-list {
+body .main-visual header .header-inner .nav .shop-list {
   display: flex;
   margin-left: -50px;
 }
-body header .header-inner .nav .shop-list li {
+body .main-visual header .header-inner .nav .shop-list li {
   color: #fff;
   margin-left: 15px;
 }
-body header .header-inner .nav .shop-list li p {
+body .main-visual header .header-inner .nav .shop-list li p {
   margin-right: 30px;
   font-size: 10px;
 }
-body .slick-track {
-  width: 90%;
-  height: auto;
-  position: relative;
-  margin-top: 30px;
-}
-body .slick-track img {
-  width: 800px;
-  height: 600px;
+body .main-visual .logo2 img {
+  z-index: 9999;
   position: absolute;
+  width: 150px;
+  height: auto;
+  margin-top: 160px;
+  margin-left: 110px;
+}
+body .main-visual .slick-track {
+  width: 85%;
+  height: auto;
   margin-top: 60px;
 }
-body .logo2 {
-  position: relative;
+body .main-visual .slick-track .slick-track1 {
+  display: block;
 }
-body .logo2 img {
-  z-index: 9999;
-  width: 100px;
-  height: auto;
-  margin-top: -180px;
-  margin-left: 150px;
-  position: absolute;
+body .main-visual .slick-track img {
+  width: 800px;
+  height: 600px;
 }
-
-/* 知花 */
-.grid {
+body .grid {
   display: grid;
   grid-template-columns: 220px 220px 220px 220px;
   gap: 20px;
@@ -81,19 +76,18 @@ body .logo2 img {
   margin-bottom: 50px;
   justify-content: center;
 }
-
-.item {
+body .item {
   color: #fff;
   padding: 10px;
   overflow: hidden;
 }
-.item ul {
+body .item ul {
   width: 440px;
   height: 440px;
   overflow: hidden;
   position: relative;
 }
-.item ul li {
+body .item ul li {
   top: 0;
   left: 0;
   width: 440px;
@@ -101,49 +95,40 @@ body .logo2 img {
   display: none;
   position: absolute;
 }
-
-.big-box {
+body .big-box {
   grid-column: 1/3;
   grid-row: 1/3;
   padding-top: 50px;
 }
-
-.big-box1 {
+body .big-box1 {
   grid-column: 4/4;
   grid-row: 3/5;
   padding-top: 75px;
 }
-
-.slick-1 {
+body .slick-1 {
   width: 440px;
 }
-
-.slick-2 {
+body .slick-2 {
   height: 400px;
 }
-
-h10 {
+body h10 {
   font-size: 20px;
   font-weight: bold;
 }
-
-.bake {
+body .bake {
   width: 1000px;
   display: flex;
   align-items: center;
   margin-left: 100px;
 }
-
-.baked {
+body .baked {
   width: 600px;
   height: 400px;
 }
-
-#tart {
+body #tart {
   flex-direction: row-reverse;
 }
-
-.description {
+body .description {
   text-align: center;
   width: 400px;
 }/*# sourceMappingURL=style.css.map */

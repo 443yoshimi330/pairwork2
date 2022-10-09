@@ -7,10 +7,12 @@ $('.slick-track').slick({
     cssEase: 'linear',
     autoplay: true,
     arrows:false,
-    pauseOnHover:false
+    pauseOnHover:false,
   });
 
-  $('header').fadeIn(2000)
+  $('.header-inner').hide().fadeIn(2000);
+
+  $('.slicktrack').on()
 
 
 

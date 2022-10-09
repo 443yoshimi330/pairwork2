@@ -1,90 +1,98 @@
 body{
-    width: 100%;
-    height: 100%;
-    background-image: url(https://ohacorte.com/wp-content/themes/ohacorte/images/bg-grunge.jpg);
-    background-size: cover;
-    
-
-    header{  
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        z-index: 10;
-        .header-inner{
-            height: 100px;
+    .main-visual{
+        width: 100vw;
+        height: 100vh;
+        background-image: url(https://ohacorte.com/wp-content/themes/ohacorte/images/bg-grunge.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
+        margin-top: -60px;
+        header{  
+            position: fixed;
+            width: 100%;
+            z-index: 9999;
             display: flex;
-            justify-content: flex-end;
+            justify-content: center;
             align-items: center;
-            padding: 0,100px;
-            
-            .logo{
-                width: px;
-                height: 80px;
-                margin-left: 20px;
-                margin-right: auto;
-                
-
-            }
-            .menu{
-                height: auto;
-                padding-top: 0px;
-                width: 770px;
-            }
-            .menu-list{
+            .header-inner{
+                height: 100px;
                 display: flex;
-                color: #fff; 
-                li{
-                    margin-left: 40px;
+                justify-content: flex-end;
+                align-items: center;
+                .logo{
+                    img{
+                        width: 150px;
+                        margin-top: -10px;
+                        margin-left: -10px;
+                    }
                 }
-            }
-            .nav{
-                
-                .shop-list{
+                .menu{
+                    height: auto;
+                    width: 770px;
+                }
+                .menu-list{
                     display: flex;
-                    margin-left: -50px;
+                    color: #fff; 
                     li{
-                        color: #fff;
-                        margin-left: 15px;
-                        p{
-                            margin-right: 30px;
-                            font-size: 10px;
+                        margin-left: 40px;
+                    }
+                }
+                .nav{
+                    
+                    .shop-list{
+                        display: flex;
+                        margin-left: -50px;
+                        li{
+                            color: #fff;
+                            margin-left: 15px;
+                            p{
+                                margin-right: 30px;
+                                font-size: 10px;
+                            }
                         }
                     }
                 }
-            }
+            
+           }
+           
             
             
         }
-    }
+    .logo2{
+       
+        img{
+            z-index: 9999;
+            position: absolute;
+            width: 150px;
+            height: auto;
+            margin-top: 160px;
+            margin-left: 110px;
+            
+            
+            
+            }
+        }
+    
     .slick-track{
-        width: 90%;
+        width: 85%;
         height: auto;
-        position: relative;
-        margin-top: 30px;
-        
+        margin-top: 60px;
+        // display: none;
+    .slick-track1{
+        display: block;
+    }
         img{
             width: 800px;
             height: 600px;
-            position: absolute;
-            margin-top: 60px;
+            // position: absolute;
         }
+    
         
-    }
-    .logo2{
-        position: relative;
-        img{
-            z-index: 9999;
-            width: 100px;
-            height: auto;
-            margin-top: -180px;
-            margin-left: 150px;
-            position: absolute;
+    
 
-        }
+    }
     }
     
-}
+
 
 // 知花
 .grid {
@@ -165,5 +173,6 @@ h10 {
 .description {
     text-align: center;
     width: 400px;
+}
 }
 // 知花終わり
