@@ -1,6 +1,51 @@
-.logo{
-    img{
-        width: 250px;
-        height: auto;
+body{
+    background-image: url(https://ohacorte.com/wp-content/themes/ohacorte/images/bg-grunge.jpg);
+    header{  
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 10;
+        .header-inner{
+            height: 100px;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            padding: 0,100px;
+            
+            .logo{
+                width: 100px;
+                height: 100px;
+                margin-left: 0px;
+                margin-right: auto;
+                
+
+            }
+            .menu{
+                height: auto;
+                padding-top: 0px;
+                width: 770px;
+            }
+            .menu-list{
+                display: flex;
+                color: #fff; 
+                li{
+                    margin-left: 40px;
+                }
+            }
+            .nav{
+                .shop-list{
+                    display: flex;
+                    li{
+                        color: #fff;
+                    }
+                }
+            }
+            
+            
+        }
+    }
+    .main-visual{
+        
     }
 }
