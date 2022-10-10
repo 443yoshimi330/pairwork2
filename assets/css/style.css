@@ -131,7 +131,7 @@ body .bake {
 body .baked {
   width: 600px;
   height: 400px;
-  transition: all 4s ease;
+  transition: all 10s ease;
 }
 body .baked.photo1, body .baked.photo2, body .baked.photo3 {
   opacity: 0;
