@@ -78,11 +78,12 @@ body .grid {
   display: grid;
   grid-template-columns: 220px 220px 220px 220px;
   gap: 20px;
-  margin-top: 6%;
+  margin-top: 10%;
   margin-bottom: 50px;
   justify-content: center;
 }
 body .item {
+  background: rgba(8, 83, 124, 0.55);
   color: #fff;
   padding: 10px;
   overflow: hidden;
@@ -122,7 +123,7 @@ body h10 {
   font-weight: bold;
 }
 body .bake {
-  width: 1000px;
+  width: 80%;
   display: flex;
   align-items: center;
   margin-left: 100px;
@@ -132,7 +133,7 @@ body .baked {
   height: 400px;
   transition: all 4s ease;
 }
-body .baked .photo1, body .baked .photo2, body .baked .photo3 {
+body .baked.photo1, body .baked.photo2, body .baked.photo3 {
   opacity: 0;
 }
 body #tart {
