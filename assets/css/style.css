@@ -74,11 +74,18 @@ body .header-scroll {
   height: 100%;
   z-index: 9990;
 }
+body h9 {
+  font-size: 30px;
+  font-weight: bolder;
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+}
 body .grid {
   display: grid;
   grid-template-columns: 220px 220px 220px 220px;
   gap: 20px;
-  margin-top: 10%;
+  margin-top: 5%;
   margin-bottom: 50px;
   justify-content: center;
 }
@@ -127,11 +134,12 @@ body .bake {
   display: flex;
   align-items: center;
   margin-left: 100px;
+  margin-bottom: 50px;
 }
 body .baked {
   width: 600px;
   height: 400px;
-  transition: all 10s ease;
+  transition: all 1s ease;
 }
 body .baked.photo1, body .baked.photo2, body .baked.photo3 {
   opacity: 0;
@@ -142,4 +150,14 @@ body #tart {
 body .description {
   text-align: center;
   width: 400px;
+}
+
+footer {
+  background-image: url(https://ohacorte.com/wp-content/themes/ohacorte/images/bg-grunge.jpg);
+  text-align: center;
+}
+footer .footer {
+  width: 50px;
+  height: 50px;
+  margin-top: 10px;
 }/*# sourceMappingURL=style.css.map */
