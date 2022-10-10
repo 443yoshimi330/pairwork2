@@ -5,8 +5,8 @@ body{
         background-image: url(https://ohacorte.com/wp-content/themes/ohacorte/images/bg-grunge.jpg);
         background-size:cover;
         background-repeat: no-repeat;
-        margin-top: -60px;
-        header{  
+        // margin-top: -60px;
+        .header-all{  
             position: fixed;
             width: 100%;
             z-index: 9999;
@@ -52,19 +52,7 @@ body{
                     }
                 }
             
-           }
-           .header-scroll{
-            background-image: url(https://ohacorte.com/wp-content/themes/ohacorte/images/bg-grunge.jpg);
-            width: 100vw;
-            height: 100px;
-            position: fixed;
-            z-index: 9998;
-            
-
-           }
-           
-            
-            
+           }         
         }
     .logo2{
        
@@ -100,7 +88,17 @@ body{
 
     }
     }
+.header-scroll{
+background-image: url(https://ohacorte.com/wp-content/themes/ohacorte/images/bg-grunge.jpg);
+width: 100%;
+height: 100%;
+z-index: 9990;
+display: flex;
+justify-content: center;
+align-items: center;
+                
     
+}    
 
 
 // 知花

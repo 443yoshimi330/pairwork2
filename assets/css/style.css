@@ -4,9 +4,8 @@ body .main-visual {
   background-image: url(https://ohacorte.com/wp-content/themes/ohacorte/images/bg-grunge.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  margin-top: -60px;
 }
-body .main-visual header {
+body .main-visual .header-all {
   position: fixed;
   width: 100%;
   z-index: 9999;
@@ -14,46 +13,39 @@ body .main-visual header {
   justify-content: center;
   align-items: center;
 }
-body .main-visual header .header-inner {
+body .main-visual .header-all .header-inner {
   height: 100px;
   display: flex;
   justify-content: flex-end;
   align-items: center;
 }
-body .main-visual header .header-inner .logo img {
+body .main-visual .header-all .header-inner .logo img {
   width: 150px;
   margin-top: -10px;
   margin-left: -10px;
 }
-body .main-visual header .header-inner .menu {
+body .main-visual .header-all .header-inner .menu {
   height: auto;
   width: 770px;
 }
-body .main-visual header .header-inner .menu-list {
+body .main-visual .header-all .header-inner .menu-list {
   display: flex;
   color: #fff;
 }
-body .main-visual header .header-inner .menu-list li {
+body .main-visual .header-all .header-inner .menu-list li {
   margin-left: 40px;
 }
-body .main-visual header .header-inner .nav .shop-list {
+body .main-visual .header-all .header-inner .nav .shop-list {
   display: flex;
   margin-left: -50px;
 }
-body .main-visual header .header-inner .nav .shop-list li {
+body .main-visual .header-all .header-inner .nav .shop-list li {
   color: #fff;
   margin-left: 15px;
 }
-body .main-visual header .header-inner .nav .shop-list li p {
+body .main-visual .header-all .header-inner .nav .shop-list li p {
   margin-right: 30px;
   font-size: 10px;
-}
-body .main-visual header .header-scroll {
-  background-image: url(https://ohacorte.com/wp-content/themes/ohacorte/images/bg-grunge.jpg);
-  width: 100vw;
-  height: 100px;
-  position: fixed;
-  z-index: 9998;
 }
 body .main-visual .logo2 img {
   z-index: 9999;
@@ -74,6 +66,15 @@ body .main-visual .slick-track .slick-track1 {
 body .main-visual .slick-track img {
   width: 800px;
   height: 600px;
+}
+body .header-scroll {
+  background-image: url(https://ohacorte.com/wp-content/themes/ohacorte/images/bg-grunge.jpg);
+  width: 100%;
+  height: 100%;
+  z-index: 9990;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 body .grid {
   display: grid;
@@ -133,9 +134,7 @@ body .baked {
   height: 400px;
   transition: all 4s ease;
 }
-body .baked .photo1, 
-body .baked .photo2, 
-body .baked .photo3 {
+body .baked .photo1, body .baked .photo2, body .baked .photo3 {
   opacity: 0;
 }
 body #tart {

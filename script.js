@@ -10,15 +10,15 @@ $('.slick-track').slick({
     pauseOnHover:false,
   });
 
-  $('.header-inner').hide().fadeIn(2000);
+  $('.header-all').hide().fadeIn(2000);
 
-  // $(window).on('scroll', function () {
-  //   if ($('.').height() < $(this).scrollTop()) {
-  //     $('.').addClass('');
-  // } else {
-  //     $('.').removeClass('');
-  // }
-  // }
+  $(window).on('scroll', function () {
+    if (700< jQuery(this).scrollTop()) {
+        $('.header-inner').addClass('header-scroll');
+    } else {
+        $('.header-inner').removeClass('header-scroll');
+    }
+});
 
 
 
