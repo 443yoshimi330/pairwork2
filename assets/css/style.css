@@ -48,6 +48,13 @@ body .main-visual header .header-inner .nav .shop-list li p {
   margin-right: 30px;
   font-size: 10px;
 }
+body .main-visual header .header-scroll {
+  background-image: url(https://ohacorte.com/wp-content/themes/ohacorte/images/bg-grunge.jpg);
+  width: 100vw;
+  height: 100px;
+  position: fixed;
+  z-index: 9998;
+}
 body .main-visual .logo2 img {
   z-index: 9999;
   position: absolute;
@@ -124,6 +131,12 @@ body .bake {
 body .baked {
   width: 600px;
   height: 400px;
+  transition: all 4s ease;
+}
+body .baked .photo1, 
+body .baked .photo2, 
+body .baked .photo3 {
+  opacity: 0;
 }
 body #tart {
   flex-direction: row-reverse;

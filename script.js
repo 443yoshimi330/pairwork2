@@ -82,3 +82,36 @@ $(function () {
       }, switchDelay);
   });
 });
+
+//タルト以外の商品紹介　
+// <h10 id="">まで画面がスクロールされたら画像をフェードインする
+// サブレ
+$(window).on("scroll",function(){
+  let sable = $("#sable").offset().top;
+  let wh = $(window).height();
+  if (sable <= $(window).scrollTop() + wh){
+      $(".cake1").removeClass("photo1")
+  } else {
+      $(".cake1").addClass("photo1");
+  }
+});
+// サンド
+$(window).on("scroll",function(){
+  let sand = $("#sand").offset().top;
+  let whsand = $(window).height();
+  if (sand <= $(window).scrollTop() + whsand){
+      $(".cake2").removeClass("photo2")
+  } else {
+      $(".cake2").addClass("photo2");
+  }
+});
+// レモンケーキ
+$(window).on("scroll",function(){
+  let lemon = $("#lemon").offset().top;
+  let whlemon = $(window).height();
+  if (lemon <= $(window).scrollTop() + whlemon){
+      $(".cake3").removeClass("photo3")
+  } else {
+      $(".cake3").addClass("photo3");
+  }
+});

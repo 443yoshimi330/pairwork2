@@ -173,6 +173,10 @@ h10 {
 .baked {
     width: 600px;
     height: 400px;
+    transition: all 4s ease;
+    .photo1,.photo2,.photo3{
+        opacity: 0;
+    }
 }
 
 #tart {
