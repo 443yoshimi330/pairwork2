@@ -12,7 +12,13 @@ $('.slick-track').slick({
 
   $('.header-inner').hide().fadeIn(2000);
 
-  $('.slicktrack').on()
+  // $(window).on('scroll', function () {
+  //   if ($('.').height() < $(this).scrollTop()) {
+  //     $('.').addClass('');
+  // } else {
+  //     $('.').removeClass('');
+  // }
+  // }
 
 
 

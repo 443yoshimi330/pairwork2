@@ -1,4 +1,4 @@
-body{
+body{   
     .main-visual{
         width: 100vw;
         height: 100vh;
@@ -52,6 +52,15 @@ body{
                     }
                 }
             
+           }
+           .header-scroll{
+            background-image: url(https://ohacorte.com/wp-content/themes/ohacorte/images/bg-grunge.jpg);
+            width: 100vw;
+            height: 100px;
+            position: fixed;
+            z-index: 9998;
+            
+
            }
            
             
