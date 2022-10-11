@@ -5,7 +5,7 @@ body {
         background-image: url(https://ohacorte.com/wp-content/themes/ohacorte/images/bg-grunge.jpg);
         background-size: 100% 100%;
         background-repeat: no-repeat;
-        margin-top: -60px;
+        padding-top: 60px;
 
         .header-all {
             position: fixed;
@@ -90,8 +90,7 @@ body {
             }
 
             img {
-                width: 800px;
-                height: 650px;
+                width: 80%;
                 margin-top: -20px;
             }
 
