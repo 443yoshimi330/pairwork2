@@ -2,7 +2,7 @@ body .main-visual {
   width: 100vw;
   height: 100vh;
   background-image: url(https://ohacorte.com/wp-content/themes/ohacorte/images/bg-grunge.jpg);
-  background-size: cover;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
   margin-top: -60px;
 }
