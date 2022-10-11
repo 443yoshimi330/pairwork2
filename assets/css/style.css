@@ -66,7 +66,8 @@ body .main-visual .slick-track .slick-track1 {
 }
 body .main-visual .slick-track img {
   width: 800px;
-  height: 600px;
+  height: 650px;
+  margin-top: -20px;
 }
 body .header-scroll {
   background-image: url(https://ohacorte.com/wp-content/themes/ohacorte/images/bg-grunge.jpg);
